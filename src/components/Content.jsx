@@ -16,8 +16,8 @@ const Content = () => {
 
     return (
         <div>
-            <button onClick={showDebits}>Debits</button>
-            <button onClick={showCredits}>Credits</button>
+            <button className='btn btn-primary' onClick={showDebits}>Debits</button>
+            <button className='btn btn-primary' onClick={showCredits}>Credits</button>
             {page}
         </div>
     );
