@@ -27,7 +27,7 @@ const Credits = () => {
                     {credits.map((credit) => {
                         const {id, description, amount, date} = credit;
                         return (
-                            <div className='col-lg-3'>
+                            <div className='col-lg-3 col-md-6 col-sm-6'>
                                 <Card 
                                     key={id}
                                     description={description}

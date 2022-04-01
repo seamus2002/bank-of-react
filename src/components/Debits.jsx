@@ -27,7 +27,7 @@ const Debits = () => {
                     {debits.map((debit) => {
                         const {id, description, amount, date} = debit;
                         return (
-                            <div className='col-lg-3'>
+                            <div className='col-lg-3 col-md-6 col-sm-6'>
                                 <Card 
                                     key={id}
                                     description={description}
