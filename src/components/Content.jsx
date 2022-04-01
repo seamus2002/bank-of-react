@@ -13,7 +13,6 @@ const Content = () => {
         setPage(<Credits />)
     }
 
-
     return (
         <div>
             <button className='btn btn-primary' onClick={showDebits}>Debits</button>

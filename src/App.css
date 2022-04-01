@@ -10,3 +10,11 @@ button {
   width: 315px;
   height: 139px;
 }
+
+.card {
+  width: 18rem;
+}
+
+.list-group-item {
+  text-align: left;
+}
