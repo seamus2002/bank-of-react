@@ -22,20 +22,22 @@ const Debits = () => {
         <div className='container'>
             <h1>Debits</h1>
             <br />
-            <div className='row'>
-                {debits.map((debit) => {
-                    const {id, description, amount, date} = debit;
-                    return (
-                        <div className='col'>
-                            <Card 
-                                key={id}
-                                description={description}
-                                amount={amount}
-                                date={date.slice(0, 10)}
-                            />
-                        </div>
-                    );
-                })}
+            <div className='container'>
+                <div className='row justify-content-center'>
+                    {debits.map((debit) => {
+                        const {id, description, amount, date} = debit;
+                        return (
+                            <div className='col-lg-3'>
+                                <Card 
+                                    key={id}
+                                    description={description}
+                                    amount={amount}
+                                    date={date.slice(0, 10)}
+                                />
+                            </div>
+                        );
+                    })}
+                </div>
             </div>
         </div>
     );
