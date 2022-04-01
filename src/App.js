@@ -6,6 +6,8 @@ import logo from './logo.png';
 function App() {
   	return (
 		<div className="App">
+			<br />
+			<br />
 			<div className='container'>
 				<img src={logo} alt='logo' className='logo' />
 				<Clock />
