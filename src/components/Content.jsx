@@ -23,9 +23,13 @@ const Content = () => {
         if (username !== '') {
             document.getElementById("username").innerHTML = username;
         }
-        let color = document.getElementById('color-textbox').value;
-        if (color !== '') {
-            document.body.style.backgroundColor = color;
+        let bgcolor = document.getElementById('bgcolor-textbox').value;
+        if (bgcolor !== '') {
+            document.body.style.backgroundColor = bgcolor;
+        }
+        let textcolor = document.getElementById('textcolor-textbox').value;
+        if (textcolor !== '') {
+            document.body.style.color = textcolor;
         }
         setPage(<Debits />)
     }
@@ -40,7 +44,8 @@ const Content = () => {
                 <br />
                 <form id="color-form">
                     Username: <input type="text" name="username" id='username-textbox' /><br />
-                    Color: <input type="text" name="color" id='color-textbox' /><br />
+                    Background Color: <input type="text" name="bgcolor" id='bgcolor-textbox' /><br />
+                    Text Color: <input type="text" name="textcolor" id='textcolor-textbox' /><br />
                 </form>
                 <button className='btn btn-outline-primary' onClick={update}>Update</button>
             </div>

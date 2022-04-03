@@ -6,6 +6,10 @@ button {
   margin: 40px;
 }
 
+li {
+  color: black;
+}
+
 .logo {
   width: 315px;
   height: 139px;
