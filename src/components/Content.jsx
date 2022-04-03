@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Debits from './Debits';
 import Credits from './Credits';
-import Customize from './Customize';
 
 const Content = () => {
     const [page, setPage] = useState(<Debits />);

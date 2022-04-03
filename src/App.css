@@ -6,8 +6,9 @@ button {
   margin: 40px;
 }
 
-li {
-  color: black;
+p {
+  margin: 10px;
+  text-align: left;
 }
 
 .logo {
@@ -17,8 +18,4 @@ li {
 
 .card {
   margin: 20px 0;
-}
-
-.list-group-item {
-  text-align: left;
 }
