@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bank-of-react/static/css/main.181bb1e1.css",
-    "main.js": "/bank-of-react/static/js/main.987ee24d.js",
-    "static/media/logo.png": "/bank-of-react/static/media/logo.5200430a502d8aca2cdb.png",
+    "main.js": "/bank-of-react/static/js/main.f0c56f4d.js",
+    "static/media/logo.png": "/bank-of-react/static/media/logo.292ba92d244ed1d0a6bf.png",
     "index.html": "/bank-of-react/index.html",
     "main.181bb1e1.css.map": "/bank-of-react/static/css/main.181bb1e1.css.map",
-    "main.987ee24d.js.map": "/bank-of-react/static/js/main.987ee24d.js.map"
+    "main.f0c56f4d.js.map": "/bank-of-react/static/js/main.f0c56f4d.js.map"
   },
   "entrypoints": [
     "static/css/main.181bb1e1.css",
-    "static/js/main.987ee24d.js"
+    "static/js/main.f0c56f4d.js"
   ]
 }
